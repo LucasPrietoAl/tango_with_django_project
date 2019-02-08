@@ -1,7 +1,9 @@
-<!DOCTYPE html>
-{% load staticfiles %} 
-<html>
-<head>
+	{% extends 'rango/base.html' %}
+	{% load staticfiles %}
+	{% block title_block %}
+		About
+	{% endblock %}
+	{% block body_block %}
 <title>Rango</title>
 </head>
 <body>
@@ -16,3 +18,4 @@ Created by Lucas Prieto<br />
 </div>
 </body>
 </html>
+	{% endblock %}
